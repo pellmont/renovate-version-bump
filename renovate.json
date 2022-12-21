@@ -1,0 +1,20 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "packageRules": [
+    {
+      "matchPackageNames": [
+        "io.openliberty:openliberty:runtime"
+      ],
+      "matchUpdateTypes": ["major"],
+      "bumpVersion": "major"
+    },
+    {
+      "matchPackageNames": [
+        "io.openliberty:openliberty:runtime"
+      ],
+      "matchUpdateTypes": ["patch"],
+      "bumpVersion": "minor"
+    }
+  ]
+}
+
