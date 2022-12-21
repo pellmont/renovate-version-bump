@@ -3,14 +3,14 @@
   "packageRules": [
     {
       "matchPackageNames": [
-        "io.openliberty:openliberty:runtime"
+        "io.openliberty:openliberty-runtime"
       ],
       "matchUpdateTypes": ["major"],
       "bumpVersion": "major"
     },
     {
       "matchPackageNames": [
-        "io.openliberty:openliberty:runtime"
+        "io.openliberty:openliberty-runtime"
       ],
       "matchUpdateTypes": ["patch"],
       "bumpVersion": "minor"
